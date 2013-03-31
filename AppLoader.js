@@ -20,7 +20,7 @@ var AutoRun=function(){
             //console.log("chunk:" + i);
         });
         response.on("end", function () {
-
+            console.log("Size:" + size + "->" + body);
             if(size!=body)
             {
                 try{
@@ -31,10 +31,15 @@ var AutoRun=function(){
                     console.log("Finished:" + body);
 
                     if(!isRun)
+                    {
+                        console.log("Start Run App...");
                         require(config.runApp);
+                    }
                     else
+                    {
+                        console.log("Exit...");
                         process.exit();
-
+                    }
 
                 }
                 catch(e)
