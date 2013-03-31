@@ -8,7 +8,14 @@ var size = 0;
 var isRun = false;
 var AutoRun=function(){
     size = 0;
-    fs.unlinkSync("./update.zip");
+    try
+    {
+        fs.unlinkSync("./update.zip");
+    }
+    catch(err)
+    {
+
+    }
     var file = fs.createWriteStream("update.zip");
 
     http.get(config.url).on("response", function (response) {
