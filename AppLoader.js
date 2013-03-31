@@ -2,7 +2,7 @@ var http = require("http");
 var fs = require("fs");
 var config = require("./config.json");
 var AdmZip = require("adm-zip");
-
+var exec = require('child_process').exec;
 
 var size = 0;
 var isRun = false;
@@ -66,17 +66,23 @@ var AutoRun=function(){
 
 }
 
-AutoRun();
+exec('npm install adm-zip', function(err, data, stderr){
+    console.log(data);
+    AutoRun();
 
-setInterval(function(){
-    if(!isRun)
-        AutoRun();
-},5*1000);
+    setInterval(function(){
+        if(!isRun)
+            AutoRun();
+    },5*1000);
 
-setInterval(function(){
-    if(isRun)
-        AutoRun();
-},60*1000);
+    setInterval(function(){
+        if(isRun)
+            AutoRun();
+    },60*1000);
+});
+
+
+
 
 
 
