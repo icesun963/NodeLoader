@@ -11,15 +11,16 @@ var AutoRun=function(){
     var file = fs.createWriteStream("update.zip");
 
     http.get(config.url).on("response", function (response) {
-        console.log(config.url);
+        console.log("wget:" + config.url);
         var body = 0;
         var i = 0;
         response.on("data", function (chunk) {
             i++;
             body += chunk.length;
-
+            //console.log("chunk:" + i);
         });
         response.on("end", function () {
+
             if(size!=body)
             {
                 try{
@@ -51,6 +52,13 @@ var AutoRun=function(){
 }
 
 AutoRun();
+
+setInterval(function(){
+    AutoRun();
+},30*1000);
+
+
+
 
 
 
