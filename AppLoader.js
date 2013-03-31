@@ -69,8 +69,14 @@ var AutoRun=function(){
 AutoRun();
 
 setInterval(function(){
-    AutoRun();
-},30*1000);
+    if(!isRun)
+        AutoRun();
+},5*1000);
+
+setInterval(function(){
+    if(isRun)
+        AutoRun();
+},60*1000);
 
 
 
