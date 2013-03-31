@@ -1,0 +1,5 @@
+{
+    "version": "v0.0.1",
+    "url" : "http://nodeload.github.com/icesun963/OpRouter/zip/master",
+    "runApp" : "./OpRouter-master/app.js"
+}
