@@ -8,6 +8,7 @@ var size = 0;
 var isRun = false;
 var AutoRun=function(){
     size = 0;
+    fs.unlinkSync("./update.zip");
     var file = fs.createWriteStream("update.zip");
 
     http.get(config.url).on("response", function (response) {
@@ -34,6 +35,7 @@ var AutoRun=function(){
                     {
                         console.log("Start Run App...");
                         require(config.runApp);
+                        isRun = true;
                     }
                     else
                     {
@@ -44,6 +46,7 @@ var AutoRun=function(){
                 }
                 catch(e)
                 {
+
                     console.log("error:" + e);
                 }
             }
