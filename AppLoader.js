@@ -1,7 +1,7 @@
 var http = require("http");
 var fs = require("fs");
 var config = require("./config.json");
-var AdmZip = require("adm-zip");
+
 var exec = require('child_process').exec;
 
 var size = 0;
@@ -31,7 +31,8 @@ var AutoRun=function(){
             console.log("Size:" + size + "->" + body);
             if(size!=body)
             {
-                try{
+                try {
+                    var AdmZip = require("adm-zip");
                     var zip = new AdmZip("./update.zip")
                         ,zipEntries = zip.getEntries();
                     zip.extractAllTo("./", true);

@@ -7,8 +7,8 @@
     <ignored path="NodeLoader.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/config.json" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364739251778" ignored="false" />
-    <file path="/AppLoader.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364745240450" ignored="false" />
-    <file path="/Dummy.txt" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364745270976" ignored="false" />
+    <file path="/AppLoader.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364745475825" ignored="false" />
+    <file path="/Dummy.txt" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364745504511" ignored="false" />
     <file path="/README.md" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364740742369" ignored="false" />
     <file path="$PROJECT_DIR$/OpRouter-master/fun.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364744272868" ignored="false" />
     <file path="$PROJECT_DIR$/OpRouter-master/app.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364744272868" ignored="false" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="AppLoader.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.6824104">
+            <state line="69" column="4" selection-start="1716" selection-end="1716" vertical-scroll-proportion="2.5682383">
               <folding />
             </state>
           </provider>
@@ -54,7 +54,7 @@
       <file leaf-file-name="config.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="11" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+            <state line="3" column="11" selection-start="110" selection-end="110" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
@@ -223,7 +223,15 @@
       <created>1364745275333</created>
       <updated>1364745275333</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1364745279559</created>
+      <updated>1364745279559</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1364745508933</created>
+      <updated>1364745508933</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -248,13 +256,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="36" width="1260" height="760" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,6 +434,13 @@
         <state line="111" column="0" selection-start="2489" selection-end="2489" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="110" selection-end="110" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
@@ -433,16 +448,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AppLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.6824104">
+        <state line="69" column="4" selection-start="1716" selection-end="1716" vertical-scroll-proportion="2.5682383">
           <folding />
         </state>
       </provider>
