@@ -69,6 +69,16 @@ var AutoRun=function(){
 
 exec('npm install adm-zip', function(err, data, stderr){
     console.log(data);
+    try
+    {
+        require(config.runApp);
+        isRun = true;
+    }
+    catch(e)
+    {
+
+    }
+
     AutoRun();
 
     setInterval(function(){
