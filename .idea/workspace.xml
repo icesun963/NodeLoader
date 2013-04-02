@@ -8,8 +8,8 @@
     <ignored path="NodeLoader.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/config.json" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364739251778" ignored="false" />
-    <file path="/AppLoader.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364867595753" ignored="false" />
-    <file path="/Dummy.txt" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364867551016" ignored="false" />
+    <file path="/AppLoader.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364867975714" ignored="false" />
+    <file path="/Dummy.txt" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364868044588" ignored="false" />
     <file path="/README.md" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364740742369" ignored="false" />
     <file path="$PROJECT_DIR$/OpRouter-master/fun.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364744272868" ignored="false" />
     <file path="$PROJECT_DIR$/OpRouter-master/app.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364744272868" ignored="false" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="AppLoader.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="31" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-0.89330024">
+            <state line="25" column="52" selection-start="751" selection-end="751" vertical-scroll-proportion="0.19543974">
               <folding />
             </state>
           </provider>
@@ -145,8 +145,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -233,7 +233,15 @@
       <created>1364745508933</created>
       <updated>1364745508933</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1364867685015</created>
+      <updated>1364867685015</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1364867996556</created>
+      <updated>1364867996556</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -258,16 +266,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1260" height="760" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32866043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -452,7 +460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="31" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-0.89330024">
+        <state line="25" column="52" selection-start="751" selection-end="751" vertical-scroll-proportion="0.19543974">
           <folding />
         </state>
       </provider>
