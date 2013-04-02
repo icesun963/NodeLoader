@@ -84,7 +84,7 @@ exec('npm install adm-zip', function(err, data, stderr){
     setInterval(function(){
         if(isRun)
             AutoRun();
-    },60*1000);
+    },10*1000);
 });
 
 
