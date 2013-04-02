@@ -36,6 +36,11 @@ var AutoRun=function(){
                     var zip = new AdmZip("./update.zip")
                         ,zipEntries = zip.getEntries();
                     zip.extractAllTo("./", true);
+                    if(size==0 && isRun)
+                    {
+                        size=body;
+                        return;
+                    }
                     size = body;
                     console.log("Finished:" + body);
 
