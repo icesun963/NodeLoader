@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/config.json" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364739251778" ignored="false" />
     <file path="/AppLoader.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364867975714" ignored="false" />
-    <file path="/Dummy.txt" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364868068410" ignored="false" />
+    <file path="/Dummy.txt" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364868238404" ignored="false" />
     <file path="/README.md" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364740742369" ignored="false" />
     <file path="$PROJECT_DIR$/OpRouter-master/fun.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364744272868" ignored="false" />
     <file path="$PROJECT_DIR$/OpRouter-master/app.js" changelist="90c20d7a-4460-4c51-92a1-e67dc4afaf42" time="1364744272868" ignored="false" />
@@ -245,7 +245,11 @@
       <created>1364868073303</created>
       <updated>1364868073303</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1364868243391</created>
+      <updated>1364868243391</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
