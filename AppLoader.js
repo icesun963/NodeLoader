@@ -13,6 +13,11 @@ var AutoRun=function(){
         console.log("wget:" + config.url);
         var body = 0;
         var i = 0;
+
+        response.on("error", function (){
+            console.log("GET request error");
+        });
+
         response.on("data", function (chunk) {
             i++;
             body += chunk.length;
