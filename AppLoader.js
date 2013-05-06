@@ -111,6 +111,11 @@ exec('npm install adm-zip', function(err, data, stderr){
         },60*1000);
 });
 
+process.on("uncaughtException", function(err) {
+    // handle the error safely
+    console.error("App UncaughtException:\r\n"  + err);
+});
+
 
 
 
